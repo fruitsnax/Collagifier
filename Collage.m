@@ -1,7 +1,7 @@
 clc; clear all; close all;
 %% Import lib Photos
-block = 100;
-n = 69;
+block = 100; %Play with this for quality and runtime
+n = 69; % Number of photos
 lib = [];
 for i = 1:n
     name = strcat(num2str(i), '.jpg');
@@ -10,8 +10,8 @@ for i = 1:n
     lib = [lib, img];
 end
 %% Import orig Photo
-orig = imread('orig2.jpg');
-origw = 12800;
+orig = imread('orig2.jpg'); %Photo to collage over
+origw = 12800; %Set these to 10x photo dimensions to start with
 origh = 8600;
 orig = imresize(orig, [origh, origw]);
 old = orig;
