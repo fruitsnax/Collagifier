@@ -24,7 +24,7 @@ for h = 0:(origh/block - 1) %rows
         A = orig(block*h+1:block*(h+1), block*w+1:block*(w+1), :);
         
         max = 0;
-        maxUse = 200;
+        maxUse = 500; %Max uses for each photo. Increase if using a small photo library
         m = 0; %block replaced
         i = 1;
         while i <= n %for each input picture in lib
