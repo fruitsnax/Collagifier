@@ -1,3 +1,7 @@
 # Collagifier
 
-This script takes in n library images, which must be named consecutively, and one collage image, and forms a mosaic collage of the library images. Mess with block size to balance runtime with quality. Have fun!
+This script takes in n library images, which must be named consecutively, and one collage image, and forms a mosaic collage of the library images. Images should be relatively square. If not imresize will squish them and your friends will look funny.
+
+Change n to equal number of photos (named 1.jpg, 2.jpg..... and in same folder)
+Change block to desired block size (size of each pasted image. smaller than 100 isnt great)
+change origh and origw to equal 10x photo dimensions 
