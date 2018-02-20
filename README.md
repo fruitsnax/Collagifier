@@ -4,4 +4,7 @@ This script takes in n library images, which must be named consecutively, and on
 
 Change n to equal number of photos (named 1.jpg, 2.jpg..... and in same folder)
 Change block to desired block size (size of each pasted image. smaller than 100 isnt great)
-change origh and origw to equal 10x photo dimensions 
+Change origh and origw to equal 10x photo dimensions, decrease if it takes too long on your CPU
+
+
+Have fun!!
